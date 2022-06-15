@@ -14,7 +14,7 @@
 
     <title>스파르타 피디아</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -105,8 +105,8 @@
                         let title = movie['title']
                         let desc = movie['desc']
                         let image = movie['image']
-                        let comment = movie['comment']
                         let star = movie['star']
+                        let comment = movie['comment']
 
                         let star_image = '⭐'.repeat(star)
 
@@ -117,7 +117,7 @@ class="card-img-top">
 <div class="card-body">
 <h5 class="card-title">${title}</h5>
 <p class="card-text">${desc}</p>
-<p>${star_image}</p>
+<p>${star}</p>
 <p class="mycomment">${comment}</p>
 </div>
 </div>
